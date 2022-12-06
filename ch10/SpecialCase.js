@@ -1,5 +1,10 @@
 // 특이 케이스 하나로 공통화 하기
 // 특이 케이스 패턴 : 특수한 경우의 공통 동작을 요소 하나에 모아서 사용
+
+
+// 예시에서 class 로 하나... 리터럴로 하나... 별 차이를 모르겠음.. 그냥 취향 차이인가?
+
+
 class Site {
   constructor(_customer) {
     this._customer = customer;
@@ -51,7 +56,10 @@ class UnknownCustomer {
     return registry.billingPlans.basic;
   }
   set billingPlan(arg) {}
+
 }
+
+
 
 // arg 에 Customer만 온다고 가정하는듯..?
 function isUnknown(arg) {
